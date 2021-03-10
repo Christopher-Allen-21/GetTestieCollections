@@ -1,5 +1,7 @@
 package rocks.zipcode;
 
+import java.util.HashSet;
+
 /**
  * Hello world!
  */
@@ -12,6 +14,13 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        HashSet<String> myHashSet = new HashSet();
+        myHashSet.add("Chris");
+        myHashSet.add("Robert");
+        myHashSet.add("Stephen");
+        myHashSet.remove("Robert");
+
+
     }
 }
